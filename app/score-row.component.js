@@ -1,7 +1,4 @@
-(function() {
-    'use strict';
-
-    function scoreRowController($scope) {
+function scoreRowController($scope) {
         
     }
 
@@ -19,4 +16,3 @@
             }
         }
     ]);
-})();

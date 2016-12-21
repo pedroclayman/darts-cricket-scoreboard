@@ -1,8 +1,4 @@
-
-(function() {
-  'use strict';
-
-  angular.module("dartsScoreboardApp")
+angular.module("dartsScoreboardApp")
     .controller('ScoreCellCtrl', ['$scope', function($scope) {
 
         $scope.toggleScoreboard = function(toggle) {
@@ -26,5 +22,3 @@
             scope: true
         }
     }]);
-})();
-

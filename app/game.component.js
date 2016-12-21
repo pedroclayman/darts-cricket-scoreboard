@@ -1,7 +1,4 @@
-(function() {
-    'use strict';
-    
-    function gameController($scope, scoreCard) {
+function gameController($scope, scoreCard) {
         $scope.scoreCard = scoreCard;
     }
 
@@ -13,4 +10,3 @@
             };
         }
     ])
-})();

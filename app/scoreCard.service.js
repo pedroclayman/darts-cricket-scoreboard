@@ -1,5 +1,7 @@
-(function() {
-   'use strict;'
+import redux from 'redux';
+    console.log(redux);
+
+
 
    var ScoreCard = function() {
        this.players = [
@@ -21,6 +23,7 @@
         }
    };
    ScoreCard.prototype.numbers = [20, 19, 18];
+   
 
    var Player = function(name) {
        this.name = name;
@@ -35,5 +38,3 @@
     angular.module('dartsScoreboardApp').service('scoreCard', [
         ScoreCard
     ]);
-
-})();
